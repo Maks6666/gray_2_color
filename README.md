@@ -2,8 +2,8 @@
 
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="c_ex.jpg" alt="Фото 1" style="width: 49.9%;" />
-    <img src="ex.jpg" alt="Фото 2" style="width: 49.9%;" />
+    <img src="c_ex.jpg" alt="Фото 1" style="width: 45.9%;" />
+    <img src="ex.jpg" alt="Фото 2" style="width: 45.9%;" />
 </div>
 
 #

@@ -2,13 +2,14 @@
 
 
 <div style="display: flex; justify-content: space-between;">
-<<<<<<< HEAD
-    <img src="c_ex.jpg" alt="Фото 1" style="width: 30%;" />
-    <img src="ex.jpg" alt="Фото 2" style="width: 30%;" />
-=======
-    <img src="c_ex.jpg" alt="Фото 1" style="width: 49%;" />
-    <img src="ex.jpg" alt="Фото 2" style="width: 49%;" />
->>>>>>> 587ec7d (Video colorization added)
+
+<img src="c_ex.jpg" alt="Фото 1" style="width: 49%;" />
+<img src="ex.jpg" alt="Фото 2" style="width: 49%;" />
+
+
+    
+
+    
 </div>
 
 #
@@ -31,7 +32,7 @@ Here is also a program, which allows users to handle any image by model using ju
 Program uses "Curses" module as main graphical interface element. 
 
 ## Video colorization
-Program is also able to colorize videos. Being just a bunch of images (frames), each video frame could be also fitted for model. It will preprocess it and return colorized one. 
+Program is also able to colorize videos. Being just a bunch of images (frames), each video could be divided into frame^ which will be put into array form and could be also fitted for model. It will preprocess it and return colorized one as "colorized_test_video_mp4". 
 
 ## Authors:
 - Kucher Maks (maxim.kucher2005@gmail.com)

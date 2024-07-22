@@ -31,6 +31,16 @@ Here is also a program, which allows users to handle any image by model using ju
 #
 Program uses "Curses" module as main graphical interface element. 
 
+
+## Model
+File with model - autoencoder.structure.ipynb" containes two different colorizer autoencoder models - for 320x320 and for 240x240 images. Depending on user task, it is possible to use them all, fitting data there. 
+
+## Model structure 
+
+Autoencoder as a main program engine in both variations is written with Tensorflow functional API and each of them uses Conv2D as main convolutional layers. Also MaxPooling2D and UpSampling2D layers are used as up- and down samplers of images sizes. As a main activation function, autoencoders use LeakyRelu. 
+
+
+
 ## Video colorization
 Program is also able to colorize videos. Being just a bunch of images (frames), each video could be divided into frame^ which will be put into array form and could be also fitted for model. It will preprocess it and return colorized one as "colorized_test_video_mp4". 
 
